@@ -375,3 +375,4 @@ Built for Alcovia Full Stack Engineering Intern Assignment
 ## 📝 License
 
 MIT License - Built with ❤️ for Alcovia
+
