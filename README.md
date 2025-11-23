@@ -2,6 +2,12 @@
 
 A closed-loop intervention system that detects when students are falling behind and automatically triggers a mentorship workflow with real-time updates.
 
+## 🌐 Live Deployment
+
+- **Frontend**: https://alcovia-intervention-engine.vercel.app
+- **Backend**: https://alcovia-intervention-engine-production.up.railway.app
+- **GitHub**: https://github.com/Ravishrk124/alcovia-intervention-engine
+
 ## 🎯 Features
 
 ### ✅ Core Requirements
