@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  
   body {
     @apply bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 text-white font-sans min-h-screen;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -16,6 +12,7 @@
 }
 
 @layer components {
+
   /* Glassmorphism card */
   .glass-card {
     @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl;
@@ -23,27 +20,20 @@
 
   /* Premium button */
   .btn-primary {
-    @apply px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 rounded-xl font-semibold 
-           shadow-lg shadow-primary-500/30 hover:shadow-xl hover:shadow-primary-500/40 
-           hover:scale-105 transition-all duration-300 active:scale-95;
+    @apply px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 rounded-xl font-semibold shadow-lg shadow-primary-500/30 hover:shadow-xl hover:shadow-primary-500/40 hover:scale-105 transition-all duration-300 active:scale-95;
   }
 
   .btn-secondary {
-    @apply px-6 py-3 bg-white/10 backdrop-blur-sm rounded-xl font-semibold border border-white/20
-           hover:bg-white/20 hover:scale-105 transition-all duration-300 active:scale-95;
+    @apply px-6 py-3 bg-white/10 backdrop-blur-sm rounded-xl font-semibold border border-white/20 hover:bg-white/20 hover:scale-105 transition-all duration-300 active:scale-95;
   }
 
   .btn-success {
-    @apply px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl font-semibold 
-           shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 
-           hover:scale-105 transition-all duration-300 active:scale-95;
+    @apply px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl font-semibold shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 hover:scale-105 transition-all duration-300 active:scale-95;
   }
 
   /* Input fields */
   .input-field {
-    @apply w-full px-4 py-3 bg-white/5 border border-white/20 rounded-xl 
-           focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 
-           transition-all duration-200 outline-none;
+    @apply w-full px-4 py-3 bg-white/5 border border-white/20 rounded-xl focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all duration-200 outline-none;
   }
 
   /* Status badges */
@@ -79,6 +69,7 @@
   0% {
     background-position: -1000px 0;
   }
+
   100% {
     background-position: 1000px 0;
   }
@@ -86,18 +77,16 @@
 
 .shimmer {
   animation: shimmer 2s infinite;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    rgba(255, 255, 255, 0.1) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(to right,
+      transparent 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 100%);
   background-size: 1000px 100%;
 }
 
 /* Glow effect */
 .glow {
   box-shadow: 0 0 20px rgba(14, 165, 233, 0.3),
-              0 0 40px rgba(14, 165, 233, 0.2),
-              0 0 60px rgba(14, 165, 233, 0.1);
+    0 0 40px rgba(14, 165, 233, 0.2),
+    0 0 60px rgba(14, 165, 233, 0.1);
 }
