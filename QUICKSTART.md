@@ -102,7 +102,7 @@ npm run dev
 1. Start timer, let it finish
 2. Enter quiz score: **4**
 3. Submit → App locks immediately 🔒
-4. Check **ravishrk0407@gmail.com** for email
+4. Check **ravishrk124@gmail.com** for email
 5. Click any task button in email
 6. **Watch the app unlock instantly!** ⚡ (WebSocket magic)
 7. Click "Mark Complete" → Back to normal ✅
